@@ -1,7 +1,10 @@
 on:
-    pull_request:
-      branches:
-        - main
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+
 name: Test, Build and Release apk
 jobs:
     build:
