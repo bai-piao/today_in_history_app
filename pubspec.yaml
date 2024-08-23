@@ -1,0 +1,43 @@
+name: today_in_history_app
+description: A Flutter app that displays "Today in History" information and author details.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 常用依赖
+  http: ^1.2.2
+  provider: ^6.0.0
+  url_launcher: ^6.0.0
+
+  # 使用 Material Design 风格
+  flutter_localizations:
+    sdk: flutter
+  webview_flutter: ^3.0.0
+
+  # 你的其他依赖项
+  # 示例：
+  # cached_network_image: ^3.0.0
+  # shared_preferences: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # 生成的代码和静态分析工具
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 声明的插件
+  # 示例：
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
